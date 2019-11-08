@@ -20,13 +20,10 @@
 
 .custom-modal__content {
     position: absolute;
-    top: 50%;
-    left: 50%;
     padding: 15px;
     background-color: #ffffff;
     border-radius: 10px;
     border: 1px solid rgba(0,0,0,.7);
-    transform: translate(-50%,-50%);
     z-index: 2;
 }
 
