@@ -6,13 +6,7 @@
 ```
 ```
 <div class="jsModal" style="display: flex; flex-direction: column; align-items: center; width: 250px;">
-    <h2>This is modal</h2>
-    <form action="" style="display: flex; flex-direction: column; align-items: center;">
-        <input type="text" placeholder="Name" style="margin-bottom: 10px">
-        <input type="text" placeholder="E-mail" style="margin-bottom: 10px">
-        <input type="text" placeholder="Password" style="margin-bottom: 10px">
-        <button type="submit">Send</button>
-    </form>
+    CONTENT
 </div>
 ```
 
