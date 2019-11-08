@@ -1,24 +1,24 @@
 (function($) {
 
     $(".jsOpenModal").customModal({
-        btnOpenModal: '.jsOpenModal',
-        modalBlock: '.jsModal',
-        customClass: '',
-        speedOpenModal: 500,
-        btnClose: true,
-        overlayClose: true,
-        overlayShow: true,
-        modalShow: 'fade' // fade (default), top, right, bottom, left
+        btnOpenModal: '.jsOpenModal', // button class to open modal
+        modalBlock: '.jsModal', // block class
+        customClass: 'custom-class', // set custom class to customize your modal
+        speedOpenModal: 500, // set open and close modal animate
+        btnClose: true, // show or hide modal close button
+        overlayClose: false, // close or not by overlay
+        overlayShow: true, // show or hide modal overlay
+        modalShow: 'top' // fade (default), top, right, bottom, left
     });
 
     $(".jsOpenModall").customModal({
-        btnOpenModal: '.jsOpenModall',
-        modalBlock: '.jsModall',
-        customClass: 'custom-class',
-        speedOpenModal: 500,
-        btnClose: true,
-        overlayClose: false,
-        overlayShow: true,
+        btnOpenModal: '.jsOpenModall', // button class to open modal
+        modalBlock: '.jsModall', // block class
+        customClass: 'custom-class', // set custom class to customize your modal
+        speedOpenModal: 500, // set open and close modal animate
+        btnClose: true, // show or hide modal close button
+        overlayClose: false, // close or not by overlay
+        overlayShow: true, // show or hide modal overlay
         modalShow: 'top' // fade (default), top, right, bottom, left
     });
 
