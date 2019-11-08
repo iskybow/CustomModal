@@ -5,7 +5,7 @@
 <button class="jsOpenModal">Click to open modal</button>
 ```
 ```
-<div class="jsModal" style="display: flex; flex-direction: column; align-items: center; width: 250px;">
+<div class="jsModal">
     CONTENT
 </div>
 ```
